@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness GYM</title>
+    <link rel="icon" type="image/png" href="img/kettlebell.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="contenedor">
+                <p class="logo">Fitness Gym Home</p>
+                <img src="img/menu.png" class="menu-icon" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="izquierda">
+            <p>BIGGER.FASTER.STRONGER</p>
+            <h1>DIVI FITNESS GYM</h1>
+            <a href="#">GET STARTED TODAY</a>
+        </div>
+        <div class="derecha">
+            <div class="contenido">
+                <p>TRY A FREE 3 DAY GYM PASS</p>
+                <a href="#">GET YOUR PASS</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="linea-gris"></div>
+        <div class="contenedor">
+            <div class="rojo cero">0.00</div>
+            <div class="rojo ini">INITIATION FEE</div>
+            <h2>FEATURED PROGRAMS</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, accusantium nihil magni neque voluptatum
+                earum. Reiciendis ipsum maxime perferendis minus nam nihil sit, distinctio error animi, eligendi numquam
+                dignissimos ea!</p>
+            <a href="#">ALL PROGRAMS</a>
+            <div class="contenedor-programs">
+                <div class="program" id="uno">
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit magnam incidunt velit
+                        aperiam
+                        voluptas distinctio omnis est dolorem delectus aspernatur dolor sed vero ea obcaecati
+                        facilis
+                        beatae, voluptate numquam.</p>
+                </div>
+                <div class="program" id="dos">
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit magnam incidunt velit
+                        aperiam
+                        voluptas distinctio omnis est dolorem delectus aspernatur dolor sed vero ea obcaecati
+                        facilis
+                        beatae, voluptate numquam.</p>
+                </div>
+                <div class="program" id="tres">
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit magnam incidunt velit
+                        aperiam voluptas distinctio omnis est dolorem delectus aspernatur dolor sed vero ea
+                        obcaecati facilis beatae, voluptate numquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-video">
+        <div class="contenedor">
+            <video id="video" src="img/video.mp4" width="900px" height="600px"></video>
+            <div class="botones">
+                <button id="boton" onclick="playVideo()"><i class="far fa-play-circle"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="join-titulo">
+        <div class="contenedor ancho">
+            <a href="#">JOIN OUR FAMILY</a>
+        </div>
+    </section>
+
+    <section id="join">
+        <div class="izquierda">
+            <a href="#">JOIN NOW</a>
+            <img id="uno" src="img/izq.jpg" alt="">
+        </div>
+        <div class="derecha">
+            <img id="dos" src="img/der1.jpg" alt="">
+            <img id="tres" src="img/der2.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="linea-red"></div>
+        <div class="contenedor">
+            <span class="comillas">“</span>
+            <h2>TESTIMONIALS</h2>
+            <a href="#">JOIN THE MOVEMENT</a>
+            <div class="contenedor-testimonials">
+
+                <div class="testimonial">
+                    <div class="contenido">
+                        <div class="foto testimonial_uno"></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in”
+                        </p>
+                    </div>
+                    <p class="nombre">Marissa James</p>
+                </div>
+
+                <div class="testimonial ">
+                    <div class="contenido">
+                        <div class="foto testimonial_dos"></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in”
+                        </p>
+                    </div>
+                    <p class="nombre">Jinga Low</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="izquierda">
+            <p>BIGGER.FASTER.STRONGER</p>
+            <h2>DIVINATION</h2>
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Name" title="Solamente acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="email" name="email" id="email" placeholder="Email Adress" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <textarea name="message" id="message" placeholder="Message" title="El mensaje es requerido" data-pattern="^.{1,255}$" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="derecha">
+            <div class="gym-hours">
+                <h3>GYM H0URS</h3>
+                <ul>
+                    <li>Monday-Friday: 5am – 11pm</li>
+                    <li>Saturday: 5am – 10pm</li>
+                    <li>Sunday: 5am – 9pm</li>
+                </ul>
+            </div>
+            <div class="pass">
+                <h3>FREE 3 DAY GYM PASS</h3>
+                <a href="">GET STARTED</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <div class="copy">Designed by Elegant Themes | Powered by WordPress</div>
+            <div class="redes">
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

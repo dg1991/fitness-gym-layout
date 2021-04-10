@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu {
+    background-color: #fff;
+    padding: 25px 20px;
+}
+
+.menu .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: #666;
+    transition: 0.5s;
+}
+
+/*INTRO*/
+
+#intro {
+    background: url(../img/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+}
+
+#intro .izquierda {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 66%;
+    padding: 65px 75px;
+}
+
+#intro .derecha {
+    width: 57%;
+    color: #fff;
+    height: 503px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, #fff 80%);
+
+}
+
+#intro .contenido {
+    background: red;
+    padding: 40px 50px 40px 50px;
+}
+
+#intro .izquierda p,
+#contacto .izquierda p {
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+#intro h1,
+#contacto h2 {
+    font-size: 66px;
+    font-weight: 100;
+    letter-spacing: 19px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#intro .izquierda a,
+#programs a,
+#join-titulo a,
+#testimonials a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 5px;
+    border-bottom: 2px solid red;
+    padding-bottom: 13px;
+    padding: 0 18px 13px 10px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#intro .izquierda a:hover,
+#programs a:hover,
+#join-titulo a:hover,
+#testimonials a:hover {
+    box-shadow: 0px 8px 0px 0px #fa2a20;
+
+}
+
+#intro .derecha a,
+#join .izquierda a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+#intro .derecha a:hover,
+#join .izquierda a:hover {
+    background-color: #fff;
+    color: red;
+}
+
+#intro .derecha p {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+/* PROGRAMS */
+
+#programs {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.rojo {
+    color: red;
+}
+
+#programs .cero {
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+#programs .ini {
+    letter-spacing: 18px;
+    font-size: 15px;
+}
+
+#programs h2,
+#testimonials h2 {
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 16px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+#programs p {
+    font-family: 'Open Sans';
+    color: #666;
+    font-size: 15px;
+    width: 73%;
+    margin: auto;
+    line-height: 30px;
+}
+
+#programs a {
+    display: inline-block;
+    margin-top: 62px;
+    margin-bottom: 80px;
+}
+
+.contenedor-programs {
+    display: flex;
+    width: 88%;
+    margin: auto;
+}
+
+#programs #uno {
+    background-color: #2a2e3f;
+    color: #fff;
+}
+
+#uno p,
+#dos p,
+#tres p {
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+
+h3 {
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.program {
+    padding: 45px 47px;
+    box-shadow: 50px 70px 120px -42px rgba(0, 0, 0, 0.3);
+}
+
+#dos {
+    background-color: red;
+    color: #fff;
+    position: relative;
+    top: 120px;
+}
+
+#tres p {
+    color: #000;
+}
+
+/* VIDEO */
+
+#section-video {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#section-video .contenedor {
+    position: relative;
+}
+
+#section-video .botones {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+}
+
+#section-video i {
+    font-size: 125px;
+    color: #fff;
+}
+
+#section-video button {
+    border: 0;
+    background: none;
+}
+
+/* JOIN */
+
+#join-titulo a {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+
+#join-titulo .ancho {
+    width: 70%;
+}
+
+#join {
+    display: flex;
+    padding-top: 100px;
+}
+
+#join .izquierda {
+    width: 49%;
+    background-color: #fa2a20;
+    margin-left: 100px;
+    height: 340px;
+    position: relative;
+}
+
+#join img {
+    width: 47%;
+}
+
+#join .derecha {
+    width: 53%;
+    position: relative;
+    background: url(../img/join-back.jpg);
+    background-size: cover;
+}
+
+#join .izquierda a {
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 6%;
+    left: 29%;
+    padding: 14px 28px;
+    font-weight: 500;
+}
+
+#join #uno {
+    position: absolute;
+    top: 22%;
+    left: 56%;
+    z-index: 1;
+    width: 44%;
+}
+
+#join #dos {
+    position: absolute;
+    top: -44%;
+}
+
+#join #tres {
+    position: absolute;
+    left: 47%;
+    top: 22%;
+    width: 44%;
+}
+
+/* TESTIMONIALS*/
+
+#testimonials {
+    padding-top: 90px;
+    text-align: center;
+}
+
+span.comillas {
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 70px;
+    color: #fa2a20;
+}
+
+#testimonials h2 {
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    margin-top: 0;
+}
+
+#testimonials a {
+    display: inline-block;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    margin: 30px;
+}
+
+.contenedor-testimonials {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.testimonial {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.testimonial .contenido {
+    display: flex;
+}
+
+.foto {
+    width: 400px;
+    height: 85px;
+    border-radius: 100%;
+    margin-top: 22px;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial_uno {
+    background: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial_dos {
+    background: url(../img/testimonial2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial p {
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 24px;
+    line-height: 25px;
+    font-family: 'Open Sans';
+}
+
+p.nombre {
+    margin-left: 105px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* CONTACTO */
+
+#contacto {
+    background-image: url(../img/contacto.jpg);
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    display: flex;
+    color: #fff;
+}
+
+#contacto .izquierda {
+    padding: 100px;
+    width: 60%;
+}
+
+#contacto h2 {
+    font-size: 90px;
+}
+
+#contacto form input[type="text"],
+#contacto form input[type="email"],
+#contacto form textarea {
+    width: 100%;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 34px;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+}
+
+#contacto form textarea {
+    resize: none;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input[type="submit"] {
+    background: none;
+    border: 1px solid #fff;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 5px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    float: right;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#contacto .derecha {
+    background-color: #fa2a20;
+    align-self: flex-end;
+    padding: 5px 50px 50px 50px;
+    width: 40%;
+}
+
+.gym-hours {
+    box-shadow: 0px 70px 120px -42px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-bottom: 32px;
+}
+
+.gym-hours h3 {
+    font-weight: 500;
+}
+
+.gym-hours ul {
+    padding: 0;
+}
+
+.gym-hours li {
+    list-style: none;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.pass {
+    background: #fff;
+    color: #000;
+    padding: 30px;
+}
+
+.pass h3 {
+    font-weight: 500;
+}
+
+.pass a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #fa2a20;
+    padding: 22px 30px;
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.pass a:hover {
+    background-color: #fa2a20;
+    color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+    background: #161616;
+    color: #666;
+    padding: 15px 0px 15px 0px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+}
+
+footer .copy {
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+footer .redes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .redes i {
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+footer .redes i:hover {
+    color: #fff;
+}
+
+/* LINEA DE COLORES */
+
+.linea-gris {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-top-style: dashed;
+    width: 80%;
+}
+
+.linea-red {
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(250, 42, 32, 0.19);
+    border-top-style: dashed;
+    width: 80%;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    nav {
+        position: absolute;
+        left: 0;
+        top: 12%;
+        width: 100%;
+        background: #000;
+        display: none;
+        padding: 20px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #intro .izquierda p,
+    #contacto .izquierda p {
+        letter-spacing: 6px;
+    }
+
+    #intro h1,
+    #contacto h2 {
+        font-size: 42px;
+        letter-spacing: 6px;
+    }
+
+    #intro .izquierda a,
+    #programs a,
+    #join-titulo a,
+    #testimonials a {
+        font-size: 13px;
+        letter-spacing: 4px;
+    }
+
+    #intro .izquierda {
+        width: 100%;
+        padding: 45px 22px;
+        height: 298px;
+    }
+
+    #intro {
+        flex-direction: column;
+    }
+
+    #intro .derecha {
+        width: 100%;
+        height: 200px;
+    }
+
+    #intro .derecha p {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    #programs .ini {
+        letter-spacing: 12px;
+        font-size: 18px;
+    }
+
+    #programs .cero {
+        font-size: 60px;
+    }
+
+    #programs h2,
+    #testimonials h2 {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    #programs p {
+        width: 90%;
+    }
+
+    .contenedor-programs {
+        flex-direction: column;
+    }
+
+    #programs a {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #dos {
+        top: 30px;
+    }
+
+    #tres {
+        margin-top: 30px;
+    }
+
+    #section-video {
+        padding-top: 55px;
+    }
+
+    #section-video i {
+        font-size: 55px;
+    }
+
+    #video {
+        width: 100%;
+        height: auto;
+    }
+
+    #section-video .botones {
+        top: 33%;
+        left: 40%;
+    }
+
+    #join-titulo .ancho {
+        padding-top: 30px;
+    }
+
+    #join {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #join .izquierda {
+        width: 100%;
+        margin-left: 0;
+        height: 321px;
+    }
+
+    #join #uno {
+        top: 30%;
+        left: 31%;
+    }
+
+    #join #dos {
+        top: -49%;
+        left: 5%;
+        position: relative;
+    }
+
+    #join #tres {
+        left: 52%;
+        top: 22%;
+        width: 44%;
+    }
+
+    #join .derecha {
+        width: 100%;
+    }
+
+    .contenedor-testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .testimonial .contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto {
+        width: 105px;
+        height: 105px;
+    }
+
+    .testimonial p {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    #contacto {
+        flex-direction: column;
+    }
+
+    #contacto .izquierda {
+        padding: 10%;
+        width: 90%;
+    }
+
+    #contacto .derecha {
+        width: 100%;
+        padding: 5px 20px 50px 20px;
+    }
+
+    footer .contenedor {
+        flex-direction: column;
+    }
+
+    footer .copy {
+        text-align: center;
+        margin: 20px 10px;
+    }
+
+    footer .redes i {
+        font-size: 28px;
+    }
+}
